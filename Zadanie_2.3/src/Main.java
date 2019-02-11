@@ -6,6 +6,7 @@ public class Main {
 
     public static void main(String[] args) throws IOException {
         System.out.println("Program obliczający pierwiastki równania kwadratowego");
+
         BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
         double a, b, c, delta, x1, x2;
         int liczbaPierwiastkow = 3;

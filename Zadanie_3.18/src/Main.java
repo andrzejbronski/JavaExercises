@@ -12,7 +12,8 @@ public class Main {
         double srednia = min;
         max = min;
         System.out.println("Wylosowano liczby: \n" + min);
-        while (i < iloscLosowanychLiczb - 1){
+
+        while (i < iloscLosowanychLiczb - 1) {
             int wylosowanaLiczba = random.nextInt(100);
             System.out.println(wylosowanaLiczba);
             srednia += wylosowanaLiczba;

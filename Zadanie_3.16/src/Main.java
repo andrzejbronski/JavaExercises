@@ -5,7 +5,7 @@ public class Main {
         System.out.println("Program losuje 5 liczb z przedziału 0-99,\nwyświetla największą oraz najmniejszą,\n" +
                 "wylicza średnią ze wszystkich wylosowanych liczb.\n");
         Random random = new Random();
-        int srednia = 0, max, min;
+        double srednia = 0, max, min;
         int iloscLosowanychLiczb = 5;
 
         min = random.nextInt(100);

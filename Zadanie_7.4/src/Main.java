@@ -4,7 +4,12 @@ public class Main {
         Watki mojeWatki1 = new Watki("Watek 1");
         Watki mojeWatki2 = new Watki("Watek 2");
         Watki mojeWatki3 = new Watki("Watek 3");
-
+        System.out.println("Priorytet wątku 1 wynosi: "+mojeWatki1.wtk.getPriority());
+        System.out.println("Zmieniam priorytet dla wątku 1 do 9");
+        mojeWatki1.wtk.setPriority(1);
+        System.out.println("Priorytet wątku 1: "+mojeWatki1.wtk.getPriority());
+        mojeWatki3.wtk.setPriority(10);
+        System.out.println("Priorytet wątku 2 wynosi: "+mojeWatki2.wtk.getPriority());
 
         try {
             mojeWatki1.wtk.join();
